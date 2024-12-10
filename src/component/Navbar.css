@@ -4,16 +4,9 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 2px;
     border-radius: 5px;
 }
-
-/* .weather-horizontal{
-    width: 90%;
-    height: 5px;
-    line-height: 80%;
-} */
-
 .weather-row{
     display: flex;
     text-align: center;
@@ -23,4 +16,26 @@
 }
 .Navbar-center{
     padding-top: 12%;
+}
+.weather-temp{
+   font-size: 42px;
+   color: white;
+   padding: 1px%;
+}
+.weather-7day-temp{
+    color: white;
+}
+.weather-center div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff
+}
+form{
+    padding: 2px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
 }
