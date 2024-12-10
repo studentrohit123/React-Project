@@ -1,0 +1,26 @@
+.Navbar-center{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* .weather-horizontal{
+    width: 90%;
+    height: 5px;
+    line-height: 80%;
+} */
+
+.weather-row{
+    display: flex;
+    text-align: center;
+}
+.weather-row div{
+    margin: 10px;
+}
+.Navbar-center{
+    padding-top: 12%;
+}
