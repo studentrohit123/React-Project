@@ -24,8 +24,8 @@ const WeatherApp = () => {
       console.log(response.data.temperature);
       console.log(response.data.date);
 
-      setForecast(response.data.next_seven_days.slice(0, 7));
-      console.log(response.data.next_seven_days.slice(0, 7));
+      setForecast(response.data.next_seven_days);
+      console.log(response.data.next_seven_days);
       
       setError('');
     } catch (err) {
